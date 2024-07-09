@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from llm import get_ai_response
 
 # Set the page configuration
-st.set_page_config(page_title="더 성숙한 내가 되는 대화", page_icon="📖")
+st.set_page_config(layout="wide", page_title="더 성숙한 내가 되는 대화", page_icon="📖")
 
 # Display the title and caption
 st.title("📖 더 성숙한 내가 되는 대화")
